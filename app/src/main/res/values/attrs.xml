@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 设置旋转菜单对应的第一张图片 -->
+    <declare-styleable name="RoundSpinView">
+        <attr name="menuStart" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DottedProgressBar">
+        <attr name="emptyDotsColor" format="color"/>
+        <attr name="activeDotColor" format="color"/>
+        <attr name="inactiveDot" format="reference|color"/>
+        <attr name="activeDot" format="reference|color"/>
+        <attr name="dotSize" format="dimension"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="jumpingSpeed" format="integer"/>
+        <attr name="activeDotIndex" format="integer"/>
+    </declare-styleable>
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference"></attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+</resources>
